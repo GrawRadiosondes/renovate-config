@@ -6,6 +6,21 @@
   ],
   "dependencyDashboard": true,
   "platformAutomerge": true,
+  "osvVulnerabilityAlerts": true,
+  "dependencyDashboardOSVVulnerabilitySummary": "all",
+  "vulnerabilityAlerts": {
+    "labels": [
+      "security"
+    ],
+    "automerge": true,
+    "automergeType": "pr"
+  },
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "before 5am on monday"
+    ]
+  },
   "packageRules": [
     {
       "matchUpdateTypes": [
