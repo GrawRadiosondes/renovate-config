@@ -19,7 +19,9 @@
     "enabled": true,
     "schedule": [
       "before 5am on monday"
-    ]
+    ],
+    "automerge": true,
+    "automergeType": "pr"
   },
   "packageRules": [
     {
