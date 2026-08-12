@@ -23,6 +23,13 @@
     "automerge": true,
     "automergeType": "pr"
   },
+  "logLevelRemap": [
+    {
+      "description": "The lock file maintenance schedule is a multi-hour window on purpose, so Renovate runs several times inside it. Once the first run has refreshed the lock file, every later run in the same window rebuilds the branch, finds nothing to write and warns 'Detected empty commit - aborting git push', which then shows up as a repository problem on the dependency dashboard. Nothing is broken when that happens, so demote it to info instead of letting it flag the dashboard.",
+      "matchMessage": "/^Detected empty commit/",
+      "newLogLevel": "info"
+    }
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": [
