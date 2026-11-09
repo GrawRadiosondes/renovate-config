@@ -9,7 +9,7 @@
   "platformAutomerge": true,
   "osvVulnerabilityAlerts": true,
   "dependencyDashboardOSVVulnerabilitySummary": "all",
-  "minimumReleaseAge": "3 days",
+  "minimumReleaseAge": null,
   "internalChecksFilter": "strict",
   "updateNotScheduled": false,
   "vulnerabilityAlerts": {
