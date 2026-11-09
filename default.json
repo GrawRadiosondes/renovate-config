@@ -6,6 +6,9 @@
     "docker:pinDigests"
   ],
   "dependencyDashboard": true,
+  "assignees": [
+    "nikcani"
+  ],
   "platformAutomerge": true,
   "osvVulnerabilityAlerts": true,
   "dependencyDashboardOSVVulnerabilitySummary": "all",
